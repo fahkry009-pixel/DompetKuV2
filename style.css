@@ -1,0 +1,14 @@
+*{box-sizing:border-box}body{margin:0;font:16px system-ui,sans-serif;background:#f3f4f6;color:#111;padding-bottom:72px}
+header{position:sticky;top:0;background:#0f766e;color:#fff;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;gap:8px;z-index:5}header select{max-width:55%;margin:0}
+main{padding:10px;max-width:640px;margin:auto}.card{background:#fff;border-radius:10px;padding:12px;margin-bottom:12px;box-shadow:0 1px 2px #0002}
+input,select,button{font:inherit;padding:11px;border:1px solid #cbd5e1;border-radius:8px;width:100%;margin:4px 0;background:#fff}
+button{width:auto;cursor:pointer;min-height:44px}button.p{background:#0f766e;color:#fff;border-color:#0f766e}button.s{min-height:36px;padding:4px 10px;margin:2px}
+label{display:block;font-size:14px;color:#475569}.row{display:flex;gap:8px}.row>*{flex:1}.row>button.s{flex:0}
+.tx{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-top:1px solid #e5e7eb}.tx small{display:block}.tx>div:last-child{text-align:right;white-space:nowrap}
+.g{color:#15803d}.r{color:#b91c1c}.m,small{color:#64748b}.warn{background:#fee2e2;color:#b91c1c;padding:8px;border-radius:8px;margin-bottom:12px}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#fff;border-top:1px solid #cbd5e1}nav button{flex:1;border:0;border-radius:0;margin:0;min-height:56px;font-size:13px}nav button.on{color:#0f766e;font-weight:700;border-top:3px solid #0f766e}
+#toast{position:fixed;left:10px;right:10px;bottom:70px;background:#166534;color:#fff;padding:12px;border-radius:8px;display:none;z-index:9}#toast.bad{background:#b91c1c}#toast.show{display:block}
+body.su header,body.su nav{display:none}summary{font-weight:700;min-height:32px}table{width:100%;border-collapse:collapse}td,th{padding:4px;text-align:right;border-top:1px solid #e5e7eb}td:first-child,th:first-child{text-align:left}
+.bar{height:8px;background:#e5e7eb;border-radius:4px;overflow:hidden;margin:2px 0 6px}.bar i{display:block;height:100%}
+.lgs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.lg{display:flex;align-items:center;gap:6px;font-size:13px;padding:6px 10px;min-height:36px;margin:0}.lg i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.bd{background:#fef3c7;color:#92400e;font-size:11px;padding:1px 6px;border-radius:8px}svg circle[data-a]{cursor:pointer}
